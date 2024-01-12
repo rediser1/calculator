@@ -349,16 +349,15 @@ QPushButton:pressed {
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton
- {
+     <string notr="true">QPushButton {
   background-color: rgb(255, 151, 57);
   color: white; 
   border: 1px solid gray;
 }
 
-QPushButton: pressed {
-    background-color: rgb(224, 0, 0);
-    ...
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
 }</string>
     </property>
     <property name="text">
